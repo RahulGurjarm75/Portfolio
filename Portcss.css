@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #576D8E;
+  color: #fff;
+  padding: 20px;
+}
+
+/* side bar show screen width less 600px */
+.sidebar , .menu{
+  display: none;
+}
+
+@media(max-width:600px) {
+  .sidebar, .menu {
+    display: block;
+  }
+}
+
+/* bar(navButton) not show screen width less 600px */
+@media(max-width:600px) {
+  .navButton {
+    display: none;
+  }
+}
+/* buttons are show */
+.navButton {
+  float: right;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #576D8E;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #C0DFCF;
+  margin: 0 9px;
+  text-decoration: none;
+}
+
+.hh{
+  background-color: #4a5e7b;
+  height: min-content;
+  padding-top: 1px;
+}
+/* headings colour */
+h1 ,h2 ,h3{
+  color: #3DA288;
+}
+
+ul{
+  list-style-type: none;
+}
+/* find me link colour */
+.color1 a {
+  color: #717475;
+}
+
+/* header nav button & find me link colour(with cursor) */
+a:hover,li:hover {
+  color: hsl(26, 94%, 52%);
+}
+/* find me icone colour */
+.cicon{
+color: white;
+}
+li{
+margin-top: 5px;
+color: #717475;
+}
+.Address{
+margin-top: 30px;
+margin-bottom: 0;
+}
+
+h2::first-letter,h3::first-letter {
+  color: #ff0000;
+  /* font-size: xx-large; */
+}
