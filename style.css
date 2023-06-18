@@ -27,10 +27,17 @@ header {
     display: none;
   }
 }
-/* buttons are show */
-.navButton {
+/* nav rigth side button */
+#nn1{
+  padding-top: 8px;
   float: right;
+  font-family: "Audiowide","Sofiya",sans-serif;
 }
+/* nav left side button show screen size less 600px */
+.sidebar{
+  font-family: "Audiowide","Sofiya",sans-serif;
+}
+
 
 section {
   padding: 20px;
@@ -87,4 +94,9 @@ margin-bottom: 0;
 h2::first-letter,h3::first-letter {
   color: #ff0000;
   /* font-size: xx-large; */
+}
+/* google font use copy  */
+#navName{
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #fc6b0b;
 }
