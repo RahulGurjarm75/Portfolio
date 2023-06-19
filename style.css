@@ -37,8 +37,6 @@ header {
 .sidebar{
   font-family: "Audiowide","Sofiya",sans-serif;
 }
-
-
 section {
   padding: 20px;
 }
@@ -98,5 +96,17 @@ h2::first-letter,h3::first-letter {
 /* google font use copy  */
 #navName{
   font-family: "Sofia", sans-serif;
-  text-shadow: 3px 3px 3px #fc6b0b;
+  text-shadow: 3px 3px 3px #9f9d9c; 
+}
+#footer{
+  font-family: "Sofia";
+}
+#header{
+  /* position: fixed; */
+  width: 98%;
+}
+#img{
+  
+  width: 10%;
+  border-radius: 40%;
 }
